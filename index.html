@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПульсТВ.ру — Телеканал Архангельска</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#hero" class="logo-link">
+                <img id="header-logo" src="pulseTvLogo.svg" alt="Пульс TV" style="height: 60px; width: auto;">
+            </a>
+            
+            <nav class="nav" id="main-nav">
+                <ul>
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О Нас</a></li>
+                    <li><a href="#projects" class="nav-link">Рекламодателям</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Добавлен, так как есть ссылка в футере) -->
+    <section id="hero" class="hero-section">
+        <div class="container text-center">
+            <h1>ПульсТВ.ру</h1>
+            <p class="lead">Самый молодой и необычный телеканал Архангельска</p>
+            <a href="#about" class="btn btn-primary btn-lg">Узнать больше</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>О Нас</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>"ПульсТВ.ру" - это самый молодой и самый необычный телеканал Архангельска. Необычен он тем, что создан ОБЩЕСТВОМ ИНВАЛИДОВ при поддержке МЭРА и организаций Архангельской области.</p>
+                    <p>Мы ставим перед собой высокие цели - доказать, что люди с инвалидностью (в том числе герои СВО) могут работать наравне с другими. Поэтому вещание телеканала имеет огромную социальную значимость, и мы благодарны организациям, частным и официальным лицам оказавшим поддержку при создании телеканала!</p>
+                    
+                    <div class="row mb-4 g-4 mt-2">
+                        <div class="col-md-6">
+                            <div class="card about-license-card h-100">
+                                <div class="card-body text-center">
+                                    <h5 class="about-card-title">Регистрация СМИ</h5>
+                                    <p class="card-text">Средство массовой информации – телеканал «ПульсТВ.ру» (свидетельство о регистрации средства массовой информации ЭЛ № ФС 77 - 73628, выдано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций).</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card about-license-card h-100">
+                                <div class="card-body text-center">
+                                    <h5 class="about-card-title">Лицензия</h5>
+                                    <p class="card-text">Лицензия на осуществление телевизионного вещания серия ТВ №29620 от 29 декабря 2018, выданная Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-highlights row g-4">
+                        <div class="col-md-4 highlight-item">
+                            <h4>🌐 Круглосуточное вещание</h4>
+                            <p>"ПульсТВ.ру" круглосуточно патрулирует информационное пространство Архангельской области.</p>
+                        </div>
+                        <div class="col-md-4 highlight-item">
+                            <h4>📡 Доступность</h4>
+                            <p>"ПульсТВ.ру" доступен абонентам телевизионной цифровой кабельной сети АТК в базовом пакете на 176 "кнопке".</p>
+                        </div>
+                        <div class="col-md-4 highlight-item">
+                            <h4>💡 Социальная значимость</h4>
+                            <p>"ПульсТВ.ру" объединяет людей, поддерживает равные права и делает город добрее.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-5">
+                <h2>Рекламодателям</h2>
+            </div>
+            <div class="text-center">
+                <p class="lead">Рекламодателям предоставляется возможность круглосуточно демонстрировать на телеканале рекламные ролики в каждом выпуске новостей, т.е. каждые 15 минут 24 часа в сутки, 7 дней в неделю.</p>
+                <h3 class="mt-4">Прайс-лист для рекламодателей</h3>
+                <a href="Price_list_PulseTv.docx" class="btn btn-outline-primary mt-3" download>Скачать документ (.docx)</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Исправленная версия -->
+    <section id="contact" class="section-padding">
+        <div class="container contact-container">
+            <div class="section-header text-center mb-5">
+                <h2>Контакты</h2>
+                <p>Мы всегда открыты для сотрудничества, новых идей и предложений!</p>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-5 mb-5">
+                    <h4>Контактная информация</h4>
+                    <!-- Добавлен класс table-responsive-stack для мобильной адаптации -->
+                    <table class="table table-borderless table-responsive-stack">
+                        <tbody>
+                            <tr>
+                                <td class="fw-bold text-end pe-3">Телефоны:</td>
+                                <td>
+                                    <a href="tel:+79115559111" class="d-block mb-1">+7 (911) 555-91-11</a>
+                                    <a href="tel:+79115558880" class="d-block">+7 (911) 555-88-80</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold text-end pe-3">Email:</td>
+                                <td>
+                                    <a href="mailto:mail.invalid@mail.ru" class="d-block">mail.invalid@mail.ru</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fw-bold text-end pe-3">Пресс-релизы:</td>
+                                <td>
+                                    <a href="mailto:press-release-media@mail.ru" class="d-block">press-release-media@mail.ru</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="col-lg-7">
+                    <form class="contact-form" id="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6 form-group">
+                                <label for="name" class="form-label">Имя *</label>
+                                <input type="text" class="form-control" id="name" name="name" required placeholder="Ваше имя">
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="your.email@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="subject" class="form-label">Тема</label>
+                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Тема сообщения">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="message" class="form-label">Сообщение *</label>
+                            <textarea class="form-control" id="message" name="message" required rows="5" placeholder="Расскажите о вашем проекте или задайте вопрос..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary contact-btn mt-4">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>ПульсТВ.ру</h5>
+                    <p>Телеканал Архангельска, созданный обществом инвалидов при поддержке администрации города и области.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Навигация</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#hero">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#projects">Рекламодателям</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Контакты</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+79115559111">+7 (911) 555-91-11</a></li>
+                        <li><a href="tel:+79115558880">+7 (911) 555-88-80</a></li>
+                        <li><a href="mailto:mail.invalid@mail.ru">mail.invalid@mail.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-4 border-top pt-3">
+                <p>&copy; <span id="year"></span> ПульсТВ.ру. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // ЗАМЕНИТЕ НА ВАШ PUBLIC KEY
+            emailjs.init("CQvq-M_eVpI7vLJgz"); 
+        })();
+    </script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

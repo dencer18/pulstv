@@ -1,0 +1,63 @@
+# === ОПЕРАЦИОННЫЕ СИСТЕМЫ ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# === РЕДАКТОРЫ КОДА И IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-project
+*.sublime-workspace
+
+# === NODE.JS И ПАКЕТЫ (если используете npm/yarn) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === СРЕДА И КОНФИГУРАЦИЯ ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# === ВРЕМЕННЫЕ ФАЙЛЫ ===
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# === ЛОГИ ===
+logs/
+*.log
+
+# === СБОРКА И АРТФАКТЫ (если будете использовать сборщики) ===
+dist/
+build/
+out/
+
+# === КОНТРОЛЬ ВЕРСИЙ ===
+.gitignore.bak
+*.orig
+
+# === ФАЙЛЫ С СЕКРЕТАМИ (ВАЖНО!) ===
+# Ключи API, пароли, конфиги с доступами
+secrets/
+*.key
+*.pem
+credentials.json
